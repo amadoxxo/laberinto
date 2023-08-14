@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.laberinto {
+  display: inline-block;
+  border: 2px solid black;
+}
+
+.laberinto-fila {
+  display: flex;
+}
+
+.celda {
+  width: 30px;
+  height: 30px;
+  border: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pared {
+  background-color: gray;
+}
+
+.jugador {
+  background-color: blue;
+}
